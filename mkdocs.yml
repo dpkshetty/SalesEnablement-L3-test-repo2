@@ -10,18 +10,6 @@ repo_name: IBM/SalesEnablement-test-repo2
 #edit_uri: edit/master/docs
 docs_dir: docs
 
-
-nav:
-  - Introduction: 'index.md'
-  - Part 1 - Overview:
-    - 'Introduction': 'Part 1/01 Introduction.md'
-    - 'Reserve the environment': 'Part 1/02 Reserve.md'
-  - Part 2 - Provisioning a PowerVS workspace:
-    - 'Introduction': 'Part 2/01 Introduction.md'
-    - 'Click through demonstration of a workspace being provisioned': 'Part 2/03 Clickthru-service.md'
-  - Part 3 - Next steps:
-    - 'Next steps': 'Part 3/01 Next steps.md'
-
 theme:
   name: material
   features:
@@ -58,6 +46,17 @@ markdown_extensions:
   - pymdownx.keys
   - attr_list
   - md_in_html
+
+nav:
+  - Introduction: 'index.md'
+  - Part 1 - Overview:
+    - 'Introduction': 'Part 1/01 Introduction.md'
+    - 'Reserve the environment': 'Part 1/02 Reserve.md'
+  - Part 2 - Provisioning a PowerVS workspace:
+    - 'Introduction': 'Part 2/01 Introduction.md'
+    - 'Click through demonstration of a workspace being provisioned': 'Part 2/02 Clickthru-service.md'
+  - Part 3 - Next steps:
+    - 'Next steps': 'Part 3/01 Next steps.md'
 
 extra:
   generator: false
