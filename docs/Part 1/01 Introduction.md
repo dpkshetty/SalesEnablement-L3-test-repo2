@@ -1,19 +1,43 @@
-**{{offering.name}}** (PowerVS) delivers flexible compute capacity for Power-based workloads. PowerVS is integrated with IBM Cloud for on-demand provisioning. PowerVS provides a secure and scalable server virtualization environment. PowerVS is built upon the advanced reliability, availability, and serviceability (RAS) features and leading performance of the Power platform.
+# title
 
-Everyone attempting this Level 3 learning plan is encouraged to first complete the IBM Power Systems Virtual Server Sales Foundation Badge (Level 2). This content is not a replacement for the Level 2 content.
+## heading
+
+### smaller heading with no line
+
+Here is how to reference one of the **extra** variables from the **mkdocs.yml** files. The offering.name variable is: {{offering.name}}.
+
+Links to other documents are done like below. You use the html href syntax to do this. Use the *target="_blank"* attribute to make sure all links open in new browser tabs or windows so users don't loose their place in the L3 demonstration guide!
 
 - **IBM:** <a href="https://yourlearning.ibm.com/activity/PLAN-4E64FE2FDBF0" target="_blank">IBM Power Virtual Server Sales Foundation</a>
 - **Business Partners:** <a href="https://learn.ibm.com/course/view.php?id=11419" target="_blank">IBM Power Systems Virtual Server Sales Foundation</a>
 
-This demonstration environment has multiple purposes. First, it is meant to educate technical sellers on (PowerVS) and to hone seller skills to deliver PowerVS demonstrations. Also, the IBM Technology Zone (TechZone) environment, this demonstration guide, and associated click through demos can be re-used for client demonstrations.
+Images can be included:
 
-The primary goal of this Level 3 is to focus on the Infrastructure as a Service (IaaS) capability of PowerVS and not on the operating systems that are supported: AIX, IBM i, and Linux, nor the Power hardware. 
+![](_attachments/ITZ-1.png)
 
-- **Parts 1, 2, and 3**: learn how the demonstration environment was built, and how to use a "baking show" style demonstration with the IBM Cloud Portal and the provided click through demonstrations. **New PowerVS resources are not provisioned as part of this demonstration guide. All resources are pre-provisioned in a shared environment to save time and money.**
-- **Part 4**: learn how to use the IBM Cloud Portal to manage PowerVS instances.
-- **Part 5**: learn how to access the pre-provisioned PowerVS instances by using IBM Cloud Shell.
-- **Parts 6, 7, and 8**: learn more about several technical aspects of PowerVS including the PowerVS IBM Cloud command line interface (CLI) plug-in.
-- **Part 9**: learn about the recently added features of PowerVS. 
-- **Part 10**: learn where to find more resources, and how to complete the {{learningplan.name}} badge.
+You should use a border around images to make sure the are visually separated from other content. I use SnagIt!, how about you?
 
-Proceed to the next section to reserve the IBM Technology Zone environment.
+You can make things **bold** and you can make things *italic* and guess what, ***bold and italic***.
+
+
+Bullets are done like this
+
+- bullet 1
+- bullet 2
+  - and sub-bullets 1
+  - and 2
+
+
+
+Numbered lists are good for step by step stuff
+
+1.
+2.
+
+Recall from Center of Excellence style guides, images associated with a numbered item should be indented like the one below.
+
+1. Look at this image.
+
+    Notice how my images lines up with this line of text and the numbered item above. You need to use **4** spaces before the image definition to make things line up properly.
+
+    ![](_attachments/part1_step1.png)
