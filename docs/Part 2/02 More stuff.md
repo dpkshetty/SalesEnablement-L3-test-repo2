@@ -20,4 +20,11 @@ The documentation says "Note that fenced code blocks can not be indented. Theref
    this code is indented
    ```
 
-Did it work?
+Did it work? Nope. thats too bad as this doesn't help us fit into our style guide for being indented under numbered items.
+
+1. one
+2. two
+   ```
+   trying again
+   ```
+3. three 
