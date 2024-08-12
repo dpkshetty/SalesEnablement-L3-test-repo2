@@ -17,6 +17,11 @@ Images can be included:
 
 You should use a border around images to make sure the are visually separated from other content. I use SnagIt!, how about you?
 
+You can also have videos:
+
+![type:video](_videos_/GitHubInstallExtension-final.mp4)
+
+
 You can make things **bold** and you can make things *italic* and guess what, ***bold and italic***.
 
 
