@@ -1,15 +1,7 @@
-Welcome to the **{{learningplan.name}}** course and demonstration guide! The goal is to provide IBM and Business Partner technical sellers with the knowledge and tools to perform hands-on demonstrations of **{{offering.name}}** (PowerVS).
+This is the first page folks will seen when they link to your content. It is the index.md file in the top level of the docs directory.
+This will typically have a good introduction, links back to YourLearning and learn.ibm.com for partners, and provide a summary of what the users will be doing. I also include the following sections.
 
-!!! Important "Important information about the demonstration environment!"
-    In this demonstration environment, full access to the IBM Cloud account is NOT provided. User identifications (IDs) are restricted to specific capabilities. Permission to create or modify PowerVS service instances, virtual machines (instances), networks, images, and so on, is **NOT** provided. The demonstration guide includes click through demonstrations to cover these functions.
-
-The learning material is divided across distinct parts, each with one or more chapters. To complete the {{learningplan.name}} badge requirements, IBM and Business Partner technical sellers must complete each part.
-
-**Business Partners** must pass an accreditation quiz after completion of the hands-on portion of the course. The quiz consists of multiple-choice questions, with four possible responses (and only one correct answer) for each question.
-
-**IBMers** must develop and record a Stand & Deliver presentation. This recorded video is intended to simulate delivery of a “live” demo in front of a client. IBMers have the flexibility to define a hypothetical client, the challenges the client has, and the goals they aspire to achieve. Specific criteria that must be demonstrated as part of the Stand & Deliver recordings are provided within the documentation that accompanies the Level 3 course. 
-
-The following guidance helps save time in completing the demonstration steps.
+This is definitely something we should standardize. Most of the existing IBM Cloud L3s are consistent.
 
 ## Support
 

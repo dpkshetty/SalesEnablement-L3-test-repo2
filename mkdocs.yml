@@ -54,7 +54,7 @@ nav:
     - 'Reserve the environment': 'Part 1/02 Callouts.md'
   - Part 2 - Provisioning a PowerVS workspace:
     - 'Introduction': 'Part 2/01 Introduction.md'
-    - 'Click through demonstration of a workspace being provisioned': 'Part 2/02 Clickthru-service.md'
+    - 'More stuff': 'Part 2/02 More stuff.md'
   - Part 3 - Next steps:
     - 'Next steps': 'Part 3/01 Next steps.md'
 
