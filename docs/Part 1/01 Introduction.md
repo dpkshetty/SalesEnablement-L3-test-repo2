@@ -1,4 +1,4 @@
-# Test Repo
+# Test Repository
 
 ## heading
 
