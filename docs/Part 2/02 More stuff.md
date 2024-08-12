@@ -20,7 +20,7 @@ The documentation says "Note that fenced code blocks can not be indented. Theref
    this code is indented
    ```
 
-Did it work? Nope. thats too bad as this doesn't help us fit into our style guide for being indented under numbered items.
+Did it work? Nope. However, it does work when it is in a numbered list so this helps us meet our style guidelines.
 
 1. one
 2. two

@@ -52,7 +52,7 @@ nav:
   - Part 1 - Overview:
     - 'Introduction': 'Part 1/01 Introduction.md'
     - 'Reserve the environment': 'Part 1/02 Callouts.md'
-  - Part 2 - Provisioning a PowerVS workspace:
+  - Part 2 - Learn some more:
     - 'Introduction': 'Part 2/01 Introduction.md'
     - 'More stuff': 'Part 2/02 More stuff.md'
   - Part 3 - Next steps:
