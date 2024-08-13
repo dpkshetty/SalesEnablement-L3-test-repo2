@@ -5,6 +5,7 @@ This is definitely something we should standardize. Most of the existing IBM Clo
 
 ## Support
 
+
 Think something is down? Check the applicable status pages for current updates:
 
 -  <a href="https://techzone.status.io/" target="_blank">IBM Technology Zone</a>
