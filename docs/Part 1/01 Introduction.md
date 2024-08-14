@@ -21,7 +21,6 @@ You can also have videos:
 
 ![type:video](_videos_/GitHubInstallExtension-final.mp4)
 
-
 You can make things **bold** and you can make things *italic* and guess what, ***bold and italic***.
 
 
