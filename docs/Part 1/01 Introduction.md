@@ -24,26 +24,38 @@ You can also have videos:
 You can make things **bold** and you can make things *italic* and guess what, ***bold and italic***.
 
 
-Bullets are done like this
-
-- bullet 1 
-- bullet 2 
-    - and sub-bullets 1 
-    - and 2 
-
-
 
 Numbered lists are good for step by step stuff.
 
 1. 
 2. 
 
-!!! bug "Bug or as intended, not sure"
+!!! bug "Bug or as works as intended?"
 
     Note, if you don't put a space after the period in you numbered lists, mkdocs treats it differently and
     the numbers appear on the same line like this:
     1.
     2.
+
+
+Bullets are done like this.
+
+- bullet 1 
+- bullet 2 
+    - and sub-bullets 1 
+    - and 2 
+
+!!! bug "Bug or as works as intended? Either way 4 is the magic number."
+
+    For sub bullets and other areas where you want things indented, you need to use **4** spaces for those items. In the bullet example above, the sub bullets must have 4 spaces before the **-**. 
+
+    Likewise in the list and image example below, the image definition and paragraph need to be preceded by **4** spaces.
+
+    And the Python-Markdown documentation notes:
+
+    The syntax rules clearly state that when a list item consists of multiple paragraphs, “each subsequent paragraph in a list item must be indented by either 4 spaces or one tab” (emphasis added). *However, many implementations do not enforce this rule and allow less than 4 spaces of indentation.* The implementers of Python-Markdown consider it a bug to not enforce this rule.
+
+    The preview extensions that we added in VSC don't enforce the 4 rule, so sometimes what you see there is not what you get when you publish to GitHub pages. Thus, it is important to review the **published** content and not just the source.
 
 
 Recall from Center of Excellence style guides, images associated with a numbered item should be indented like the one below.
