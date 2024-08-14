@@ -26,10 +26,10 @@ You can make things **bold** and you can make things *italic* and guess what, **
 
 Bullets are done like this
 
-- bullet 1
-- bullet 2
-  - and sub-bullets 1
-  - and 2
+- bullet 1 
+- bullet 2 
+  - and sub-bullets 1 
+  - and 2 
 
 
 
