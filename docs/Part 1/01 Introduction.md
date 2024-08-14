@@ -28,8 +28,8 @@ Bullets are done like this
 
 - bullet 1 
 - bullet 2 
-  - and sub-bullets 1 
-  - and 2 
+    - and sub-bullets 1 
+    - and 2 
 
 
 
