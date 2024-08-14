@@ -33,10 +33,10 @@ Bullets are done like this
 
 
 
-Numbered lists are good for step by step stuff
+Numbered lists are good for step by step stuff.
 
-1.
-2.
+1. 
+2. 
 
 Recall from Center of Excellence style guides, images associated with a numbered item should be indented like the one below.
 
