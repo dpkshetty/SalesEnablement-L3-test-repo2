@@ -41,10 +41,10 @@ Numbered lists are good for step by step stuff.
 !!! bug "Bug or as intended, not sure"
 
     Note, if you don't put a space after the period in you numbered lists, mkdocs treats it differently and
-the numbers appear on the same line like this:
+    the numbers appear on the same line like this:
     1.
     2.
-    
+
 
 Recall from Center of Excellence style guides, images associated with a numbered item should be indented like the one below.
 
