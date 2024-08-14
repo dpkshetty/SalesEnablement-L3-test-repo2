@@ -16,15 +16,15 @@ def fn():
 
 The documentation says "Note that fenced code blocks can not be indented. Therefore, they cannot be nested inside list items, blockquotes, etc.", but we can try
 
-   ```
-   this code is indented
-   ```
+    ```
+    this code is indented
+    ```
 
 Did it work? Nope. However, it does work when it is in a numbered list so this helps us meet our style guidelines.
 
 1. one
 2. two
-   ```
-   trying again
-   ```
+    ```
+    trying again
+    ```
 3. three 

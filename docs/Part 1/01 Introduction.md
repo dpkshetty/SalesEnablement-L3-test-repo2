@@ -45,7 +45,7 @@ Bullets are done like this.
     - and sub-bullets 1 
     - and 2 
 
-!!! bug "Bug or as works as intended? Either way 4 is the magic number."
+!!! bug "Bug or as works as intended? Either way, 4 is the magic number!"
 
     For sub bullets and other areas where you want things indented, you need to use **4** spaces for those items. In the bullet example above, the sub bullets must have 4 spaces before the **-**. 
 
