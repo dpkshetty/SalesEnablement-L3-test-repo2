@@ -71,7 +71,7 @@ In most images, the following styles of highlighting are used:
 
     ![](_attachments/PathExploreHighlight.png)
 
-- Copy to the clipboard box: The text is copied to the clipboard. Click the copy icon (![](_attachments/copyIcon.png)) (![](_attachments/myCopyIcon.png)) and then paste with the operating system's paste function. For example, entering ++ctrl++**+v**, ++cmd++**+v**, or right click and select paste.
+- Copy to the clipboard box: The text is copied to the clipboard. Click the copy icon (![](_attachments/myCopyIcon.png)). Then paste the value with the operating system's paste function. For example, entering ++ctrl++**+v**, ++cmd++**+v**, or right click and select paste.
 
     ![](_attachments/Usage-Clipboard.png)
 
@@ -80,12 +80,7 @@ In most images, the following styles of highlighting are used:
         COE specifies "No inline icons are used in the text because they do not show th context and location." 
 
         I believe that is only one use case where in-line icons can be used. I believe they can be quite effective as shown in the paragraph for copy keyboard shortcut. It is also useful to identify elements of a UI elements that are small. When doing so, they should also be highlighted in the image as well.
-
-        As an example:
-
-        Click the **Configure for Epic workloads** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
-        
-
+      
 Several "click through" demonstrations are included. Links to click through demonstrations open in a new browser window or tab.
 
 ![](_attachments/ClickThruStartPage.png)
