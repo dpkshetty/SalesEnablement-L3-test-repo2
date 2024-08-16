@@ -83,7 +83,7 @@ In most images, the following styles of highlighting are used:
 
         As an example:
 
-            Click the **Configure for Epic workloads** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
+        Click the **Configure for Epic workloads** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
         
 
 Several "click through" demonstrations are included. Links to click through demonstrations open in a new browser window or tab.
