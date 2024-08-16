@@ -71,7 +71,7 @@ In most images, the following styles of highlighting are used:
 
     ![](_attachments/PathExploreHighlight.png)
 
-- Copy to the clipboard box: The text is copied to the clipboard. Click the copy icon (![](_attachments/copyIcon.png)) and then paste with the operating system's paste function. For example, entering ++ctrl++**+v**, ++cmd++**+v**, or right click and select paste.
+- Copy to the clipboard box: The text is copied to the clipboard. Click the copy icon (![](_attachments/copyIcon.png)) (![](_attachments/myCopyIcon.png)) and then paste with the operating system's paste function. For example, entering ++ctrl++**+v**, ++cmd++**+v**, or right click and select paste.
 
     ![](_attachments/Usage-Clipboard.png)
 
