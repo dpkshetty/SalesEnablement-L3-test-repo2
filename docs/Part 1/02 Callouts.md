@@ -16,7 +16,7 @@ You can also make it where only the "headline" shows and the user has to expand 
 
 There are other icons instead of what shows for "Important" ones. I often use "Note", "Info", and "Warning". You can find more in the MkDocs documentation <a href="https://squidfunk.github.io/mkdocs-material/reference/admonitions/" target="_blank">here</a>.
 
-Links were mentioned in the previous chapter. You an also create links to internal pages like this: Go to [Part 2 - 01 Introduction](../Part 2/01 Introduction.md).
+Links were mentioned in the previous chapter. You an also create links to internal pages like this: Go to [Part 2 - 01 Tables](../Part 2/01 Tables.md).
 
 
 
