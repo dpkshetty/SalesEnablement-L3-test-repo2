@@ -20,9 +20,11 @@ The markdown looks like this: ```<a href="https://learn.ibm.com/course/view.php?
 
 Internal links to pages contained in the repository use relative paths. 
 
-To link to the next chapter in this section, create a link like [this](02 Callouts.md). The markdown looks like this ```[this](02 Callouts.md)```. 
+To link to the next chapter in this section, create a link like [this](02 Callouts.md). 
+The markdown looks like this ```[this](02 Callouts.md)```. 
 
-To link to a document in a different directory like [this](../Part 2/01 Introduction.md). The markdown looks like this: ```[this](../Part 2/01 Introduction.md)```.
+To link to a document in a different directory like [this](../Part 2/01 Introduction.md). 
+The markdown looks like this: ```[this](../Part 2/01 Introduction.md)```.
 
 ## Images and videos
 
@@ -39,7 +41,8 @@ You can also have videos:
 
 ## Formatting text
 
-You can make things **bold** and you can make things *italic* and guess what, ***bold and italic***.
+You can make things **bold** and you can make things *italic* and guess what, ***bold and italic***. 
+This is done by using asterisks like this: ```**bold** *italic* ***bold and italic***```
 
 ## Numbered lists and bullets
 
