@@ -2,7 +2,7 @@ This is the first page folks will seen when they link to your content. It is the
 
 This will typically have a good introduction, links back to YourLearning and learn.ibm.com for partners, and provide a summary of what the users will be doing. 
 
-For IBM Cloud, the following sections are included:
+For IBM Cloud, the following sections are included: Support, Using the demonstration guide, and acronyms.
 
 ## Support
 

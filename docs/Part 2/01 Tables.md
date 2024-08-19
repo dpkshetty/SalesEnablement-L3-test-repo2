@@ -7,7 +7,7 @@ First Header | Second Header | Third Header
 Content Cell | Content Cell  | Content Cell
 Content Cell | Content Cell  | Content Cell
 
-The look ok, but the way you do it in markdown is kind of ugly: 
+They look ok, but the way you do it in markdown is kind of ugly: 
 
 ```
 First Header | Second Header | Third Header

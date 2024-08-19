@@ -50,11 +50,11 @@ markdown_extensions:
 nav:
   - Introduction: 'index.md'
   - Part 1 - Overview:
-    - 'Introduction': 'Part 1/01 Introduction.md'
-    - 'Reserve the environment': 'Part 1/02 Callouts.md'
+    - 'Markdown basics': 'Part 1/01 Markdown Basics.md'
+    - 'Callouts': 'Part 1/02 Callouts.md'
   - Part 2 - Learn some more:
-    - 'Introduction': 'Part 2/01 Introduction.md'
-    - 'More stuff': 'Part 2/02 More stuff.md'
+    - 'Tables': 'Part 2/01 Tables.md'
+    - 'Code blocks': 'Part 2/02 Code blocks.md'
   - Part 3 - Next steps:
     - 'Next steps': 'Part 3/01 Next steps.md'
 
