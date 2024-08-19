@@ -1,11 +1,20 @@
 There are a lot of other things you can do using MkDocs. 
 
-Like, create tables. The look ok, but the way you do it in markdown is kind of ugly. 
+Like, create tables. 
 
 First Header | Second Header | Third Header
 ------------ | ------------- | ------------
 Content Cell | Content Cell  | Content Cell
 Content Cell | Content Cell  | Content Cell
+
+The look ok, but the way you do it in markdown is kind of ugly: 
+
+```
+First Header | Second Header | Third Header
+------------ | ------------- | ------------
+Content Cell | Content Cell  | Content Cell
+Content Cell | Content Cell  | Content Cell
+```
 
 To learn about tables go <a href="https://www.mkdocs.org/user-guide/writing-your-docs/#tables" target="_blank">here</a> in the MkDocs documentation.
 

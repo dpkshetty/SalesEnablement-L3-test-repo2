@@ -32,17 +32,22 @@ Images can be included:
 
 ![](_attachments/ITZ-1.png)
 
+The markdown for images looks like: ```![](_attachments/ITZ-1.png)```
+
 You should use a border around images to make sure the are visually separated from other content. I use SnagIt!, how about you?
 
 You can also have videos:
 
 ![type:video](_videos/GitHubInstallExtension-final.mp4)
 
+The markdown for videos looks like: ```![type:video](_videos/GitHubInstallExtension-final.mp4)```
+
 
 ## Formatting text
 
-You can make things **bold** and you can make things *italic* and guess what, ***bold and italic***. 
-This is done by using asterisks like this: ```**bold** *italic* ***bold and italic***```
+You can make things *italic* and you can make things **bold**, and guess what, ***bold and italic***. 
+
+In markdown, use asterisks like this: ```*italic* **bold** ***bold and italic***```
 
 ## Numbered lists and bullets
 
