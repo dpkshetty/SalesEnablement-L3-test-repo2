@@ -17,9 +17,9 @@ Links to external references are created using the Hyper Text Markup Language (H
 
 Internal links to pages contained in the repository use relative paths. 
 
-To link to the next chapter in this section, create a link like [this](02 Callouts.md). The markdown looks like this ```[this](02 CAllouts.md)```. 
+To link to the next chapter in this section, create a link like [this](02 Callouts.md). The markdown looks like this ```[this](02 Callouts.md)```. 
 
-To link to a document in a different directory like [this](../Part 2/02 Introduction.md). The markdown looks like this: ```[this](../Part 2/02 Introduction.md)```.
+To link to a document in a different directory like [this](../Part 2/01 Introduction.md). The markdown looks like this: ```[this](../Part 2/01 Introduction.md)```.
 
 ## Images and videos
 
