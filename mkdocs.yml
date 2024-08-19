@@ -50,7 +50,7 @@ markdown_extensions:
 nav:
   - Introduction: 'index.md'
   - Part 1 - Overview:
-    - 'Markdown basics': 'Part 1/01 Markdown Basics.md'
+    - 'Markdown basics': 'Part 1/01 Markdown basics.md'
     - 'Callouts': 'Part 1/02 Callouts.md'
   - Part 2 - Learn some more:
     - 'Tables': 'Part 2/01 Tables.md'
