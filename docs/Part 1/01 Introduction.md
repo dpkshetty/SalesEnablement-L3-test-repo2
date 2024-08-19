@@ -13,6 +13,9 @@ Links to external references are created using the Hyper Text Markup Language (H
 - **IBM:** <a href="https://yourlearning.ibm.com/activity/PLAN-4E64FE2FDBF0" target="_blank">IBM Power Virtual Server Sales Foundation</a>
 - **Business Partners:** <a href="https://learn.ibm.com/course/view.php?id=11419" target="_blank">IBM Power Systems Virtual Server Sales Foundation</a>
 
+The markdown looks like this: ```<a href="https://learn.ibm.com/course/view.php?id=11419" target="_blank">IBM Power Systems Virtual Server Sales Foundation</a>```
+
+
 ### Internal links (references)
 
 Internal links to pages contained in the repository use relative paths. 
