@@ -4,7 +4,10 @@
 
 ### smaller heading with no line
 
-Here is how to reference one of the **extra** variables from the **mkdocs.yml** files. The offering.name variable is: {{offering.name}}.
+Here is how to reference one of the **extra** variables from the **mkdocs.yml** files. The offering.name variable is: {{offering.name}}. The syntax in markdown looks like:
+
+    \{\{offering.name\}\}
+
 
 Links to other documents are done like below. You use the html href syntax to do this. Use the *target="_blank"* attribute to make sure all links open in new browser tabs or windows so users don't loose their place in the L3 demonstration guide!
 
@@ -65,3 +68,7 @@ Recall from Center of Excellence style guides, images associated with a numbered
     Notice how my images lines up with this line of text and the numbered item above. You need to use **4** spaces before the image definition to make things line up properly.
 
     ![](_attachments/part1_step1.png)
+
+!!! Warning "Automatic numbering in Visual Studio Code (VSC)"
+
+    When editing a number item, double check that the numbered item does not change. Depending on the changes made, it has been observed the VSC will reset the numbered item to 1. Always double check that numbered lists are correct when saving the updated document.
