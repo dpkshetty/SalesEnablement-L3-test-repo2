@@ -87,6 +87,8 @@ Recall from Center of Excellence style guides, images associated with a numbered
 
     ![](_attachments/part1_step1.png)
 
+    The markdown to embed an image looks like this: ```![](_attachments/part1_step1.png)```
+
 !!! Warning "Automatic numbering in Visual Studio Code (VSC)"
 
     When editing a number item, double check that the numbered item does not change. Depending on the changes made, it has been observed the VSC will reset the numbered item to 1. Always double check that numbered lists are correct when saving the updated document.
