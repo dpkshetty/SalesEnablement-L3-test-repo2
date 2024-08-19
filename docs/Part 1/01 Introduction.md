@@ -2,9 +2,7 @@
 
 ## Referencing variables from mkdocs.yml
 
-Here is how to reference one of the **extra** variables from the **mkdocs.yml** files. The offering.name variable is: {{offering.name}}. The syntax in markdown looks like:
-
-    \{\{offering.name\}\}
+Here is how to reference one of the **extra** variables from the **mkdocs.yml** files. The offering.name variable is: {{offering.name}}. The syntax in markdown looks like: ```{{offering.name}}```.
 
 ## Links
 
@@ -21,7 +19,7 @@ Internal links to pages contained in the repository use relative paths.
 
 To link to the next chapter in this section, create a link like [this](02 Callouts.md). The markdown looks like this ```[this](02 CAllouts.md)```. 
 
-To link to a document in a different directory like [this]I(../Part 2/02 Introduction.md). The markdown looks like this: ```[this](..Part 2/02 Introduction.md)```.
+To link to a document in a different directory like [this](../Part 2/02 Introduction.md). The markdown looks like this: ```[this](../Part 2/02 Introduction.md)```.
 
 ## Images and videos
 
