@@ -64,6 +64,8 @@ In most images, the following styles of highlighting are used:
 
         COE also says to use a circle for numbered circles. Would suggest using a shape (like shown above) that provides more positional direction especially when there is a need to avoid covering certain aspects of the UI.
 
+        The COE also appears to say every action should be highlighted with a numbered circle. I believe this should be optional and the numbered circles should be added "where needed for clarity", for example a form with multiple entry fields to explain each field. A single "**Click** OK" should not require a highlight box and a circle with a 1.
+
 - Explore more highlight box: illustrates one of two things:
 
     - the path to follow to get to a specific location in the user interface
@@ -79,7 +81,7 @@ In most images, the following styles of highlighting are used:
 
         COE specifies "No inline icons are used in the text because they do not show th context and location." 
 
-        I believe that is only one use case where in-line icons can be used. I believe they can be quite effective as shown in the paragraph for copy keyboard shortcut. It is also useful to identify elements of a UI elements that are small. When doing so, they should also be highlighted in the image as well.
+        I believe that is only one use case where in-line icons can be used. I believe they can be quite effective as shown in the paragraph for copy keyboard shortcut. It is also useful to identify elements of a UI elements that are small. When doing so, they should also be highlighted in the image as well. The <a href="https://ibmdocs-test.dcs.ibm.com/docs/en/ibm-style?topic=elements-ui" target="_blank">IBM Style guide</a> supports this as well.
       
 Several "click through" demonstrations are included. Links to click through demonstrations open in a new browser window or tab.
 
@@ -117,5 +119,9 @@ The following acronyms are used throughout this demonstration guide:
     - Secure Socket Shell (SSH)
     - User identification (ID)
     - Virtual machine (VM)
+
+    !!! Danger "Potential Conflict with current Sales Enablement Center of Excellence (COE)"
+
+        I add an acronym section here based on historical practices going back to previous roles. I typically include the fully spelled out acronym at first occurrence in every separate .md file.
 
 It is now time to proceed to Part 1, an overview of {{offering.name}}.
