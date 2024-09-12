@@ -1,0 +1,769 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="IBM Cloud Sample Level 3">
+      
+      
+        <meta name="author" content="Andrew R. Jones (andrewj@us.ibm.com)">
+      
+      
+      
+      
+        <link rel="next" href="Part%201/01%20Markdown%20basics/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>IBM Cloud Sample Level 3</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#support-changed-by-deepak-change-2" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="IBM Cloud Sample Level 3" class="md-header__button md-logo" aria-label="IBM Cloud Sample Level 3" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IBM Cloud Sample Level 3
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Introduction
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="IBM Cloud Sample Level 3" class="md-nav__button md-logo" aria-label="IBM Cloud Sample Level 3" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    IBM Cloud Sample Level 3
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#support-changed-by-deepak-change-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Support - CHANGED by DEEPAK - CHANGE 2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-demonstration-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using the demonstration guide
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acronyms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acronyms
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Part 1 - Overview
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Part 1 - Overview
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Part%201/01%20Markdown%20basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Markdown basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Part%201/02%20Callouts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Callouts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Part 2 - Learn some more
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Part 2 - Learn some more
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Part%202/01%20Tables/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tables
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Part%202/02%20Code%20blocks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code blocks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Part 3 - Next steps
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Part 3 - Next steps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Part%203/01%20Next%20steps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Next steps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#support-changed-by-deepak-change-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Support - CHANGED by DEEPAK - CHANGE 2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-demonstration-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using the demonstration guide
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acronyms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acronyms
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Introduction</h1>
+
+<div><p>This is the first page folks will seen when they link to your content. It is the index.md file in the top level of the docs directory in the source repository and is generated by <strong>mkdocs create</strong>.</p>
+<p>This will typically have a good introduction, links back to YourLearning and learn.ibm.com for partners, and provide a summary of what the users will be doing. </p>
+<p>For IBM Cloud, the following sections are included: Support, Using the demonstration guide, and acronyms.</p>
+<h2 id="support-changed-by-deepak-change-2">Support - CHANGED by DEEPAK - CHANGE 2</h2>
+<div class="admonition danger">
+<p class="admonition-title">Potential conflict with current Sales Enablement Center of Excellence (COE)</p>
+<p>The current COE says, "Do not include author names and contact info for client-facing labs". If you are creating a client-facing lab, you should not include your contact. You should include information for accessing the appropriate support mechanism. </p>
+<p>For IBM Cloud L3's the author e-mail address has been included. This expedites support, but may need to be reconsidered.</p>
+</div>
+<p>Think something is down? Check the applicable status pages for current updates:</p>
+<ul>
+<li><a href="https://techzone.status.io/" target="_blank">IBM Technology Zone</a></li>
+<li><a href="https://cloud.ibm.com/status" target="_blank">IBM Cloud</a></li>
+</ul>
+<p>For issues with provisioning or accessing the environment in IBM Technology Zone (ITZ) open a ticket with ITZ support:</p>
+<ul>
+<li>Web: <a href="https://ibmsf.force.com/ibminternalproducts/s/createrecord/NewCase?language=en_US" target="_blank">IBM Technology Zone</a></li>
+<li>Email: <a href="mailto:techzone.help@ibm.com" target="_blank">techzone.help.ibm.com</a></li>
+</ul>
+<p>For issues related to specific steps found in the demonstration guide after the ITZ environment is provisioned, contact the authors:</p>
+<ul>
+<li>Slack: <a href="https://ibm-technology-sales.slack.com/archives/C03PQ47KRQE" target="_blank">#cloud-platform-demo-feedback</a> - IBM only</li>
+<li>Email: <a href="andrewj@us.ibm.com" target="_blank">andrewj@us.ibm.com</a></li>
+</ul>
+<p>Business Partners can also use the IBM Training live Chat Support service or other support methods that are found on the IBM Training portal <a href="https://ibmcpsprod.service-now.com/its?id=sc_category&amp;sys_id=6568bfafdb2f13008ea7d6fa4b961990" target="_blank">here</a>.</p>
+<h2 id="using-the-demonstration-guide">Using the demonstration guide</h2>
+<p>The IBM Power Virtual Server - Level 3 Demonstration Guide is organized in parts and chapters. Most chapters contain numbered steps.</p>
+<p>Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM Cloud Shell, and PowerVS instance consoles.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The IBM Cloud Portal and IBM Power Virtual Server changes regularly and can differ from the images that are captured here.</p>
+</div>
+<p>In most images, the following styles of highlighting are used:</p>
+<ul>
+<li>
+<p>Action highlight box: illustrates where to click, enter, or select an item:</p>
+<p><img alt="" src="_attachments/ClickActionRectangle.png"></p>
+</li>
+<li>
+<p>Numbered action highlight box: illustrates where to click, enter, or select items and the order in which they should be processed:</p>
+<p><img alt="" src="_attachments/NumberedClickActionRectangle.png">
+<img alt="" src="_attachments/LetteredClickActionRectangle.png"></p>
+<div class="admonition danger">
+<p class="admonition-title">Conflict with current Sales Enablement Center of Excellence (COE)</p>
+<p>The COE states "Circled uppercase letters are used as image callouts to show where to perform the action and the same letter is shown in bold in the instructions."</p>
+<p>This should be revisited.</p>
+<ol>
+<li>If doing numbered step-by-step instructions, a number should be used to correspond with the step. </li>
+<li>If depicting sub-steps that are lettered, then a letter should be used to aligns with the instructions - either capital or lower case.</li>
+</ol>
+<p>The COE is a little inconsistent as it first says to use red and then says to use contrasting color for labels. For consistency, it should be <em>contrasting color</em> from the screen capture. In my opinion, this actually should not be <em>red</em>, especially when signalling an action that should be performed. <em>Red</em> is the universal color for stop which makes is use counter intuitive.</p>
+<p>COE also calls out using specific thickness (2.25 points) and size (0.91cm circle) of highlights and numbers. This should probably be more flexible and based upon the resolution of the image and what needs to be highlighted. The above sizes may have been specified given a specific font size. On-line directions need more flexibility.</p>
+<p>COE also says to use a circle for numbered circles. Would suggest using a shape (like shown above) that provides more positional direction especially when there is a need to avoid covering certain aspects of the UI.</p>
+<p>The COE also appears to say every action should be highlighted with a numbered circle. I believe this should be optional and the numbered circles should be added "where needed for clarity", for example a form with multiple entry fields to explain each field. A single "<strong>Click</strong> OK" should not require a highlight box and a circle with a 1.</p>
+</div>
+</li>
+<li>
+<p>Explore more highlight box: illustrates one of two things:</p>
+<ul>
+<li>the path to follow to get to a specific location in the user interface</li>
+<li>areas to explore</li>
+</ul>
+<p><img alt="" src="_attachments/PathExploreHighlight.png"></p>
+</li>
+<li>
+<p>Copy to the clipboard box: The text is copied to the clipboard. Click the copy icon (<img alt="" src="_attachments/myCopyIcon.png">). Then paste the value with the operating system's paste function. For example, entering <span class="keys"><kbd class="key-control">Ctrl</kbd></span><strong>+v</strong>, <span class="keys"><kbd class="key-command">Cmd</kbd></span><strong>+v</strong>, or right click and select paste.</p>
+<p><img alt="" src="_attachments/Usage-Clipboard.png"></p>
+<div class="admonition danger">
+<p class="admonition-title">Conflict with current Sales Enablement Center of Excellence (COE)</p>
+<p>COE specifies "No inline icons are used in the text because they do not show th context and location." </p>
+<p>I believe that is only one use case where in-line icons can be used. I believe they can be quite effective as shown in the paragraph for copy keyboard shortcut. It is also useful to identify elements of a UI elements that are small. When doing so, they should also be highlighted in the image as well. The <a href="https://ibmdocs-test.dcs.ibm.com/docs/en/ibm-style?topic=elements-ui" target="_blank">IBM Style guide</a> supports this as well.</p>
+</div>
+</li>
+</ul>
+<p>Several "click through" demonstrations are included. Links to click through demonstrations open in a new browser window or tab.</p>
+<p><img alt="" src="_attachments/ClickThruStartPage.png"></p>
+<p>Click <strong>play</strong> <img alt="" src="_attachments/ClickThruPlayButton.png"> in the middle of the screen to start the demo. Then, follow the steps in the demonstration guide. Not sure where to click or what to do next? Click anywhere on the screen and the spot to click next is highlighted.</p>
+<p>Just a reminder, <strong>in this demonstration environment, full access to the IBM Cloud account is NOT provided.</strong> User identifications (IDs) are restricted to specific capabilities. Permission to create or modify PowerVS service instances, virtual machines (instances), networks, images, and so on, is not provided.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Attempting to perform an action without the appropriate permissions results in an error message like the one that follows. This error is not an issue with IBM Cloud or PowerVS, rather a restriction of the demo environment and the permissions assigned to users.</p>
+<p><img alt="" src="_attachments/ErrorMessage.png"></p>
+</div>
+<h2 id="acronyms">Acronyms</h2>
+<p>The following acronyms are used throughout this demonstration guide:</p>
+<div class="highlight"><pre><span></span><code>- Application programming interfaces (APIs)
+- Classless inter-domain routing (CIDR)
+- Control (ctrl) - The control key on keyboard
+- Command (cmd) - The command key on keyboard
+- Disaster recovery (DR)
+- Gigabyte (GB)
+- High availability (HA)
+- IBM Cloud Object Storage (COS)
+- IBM Power Virtual Server (PowerVS)
+- IBM Technology Zone (TechZone)
+- Infrastructure as a Service (IaaS)
+- Input/output operations per second (IOPs)
+- Internet protocol (IP)
+- Operating system (OS)
+- Random access memory (RAM)
+- Reliability, Availability, and Serviceability (RAS)
+- Secure Socket Shell (SSH)
+- User identification (ID)
+- Virtual machine (VM)
+
+!!! Danger "Potential Conflict with current Sales Enablement Center of Excellence (COE)"
+
+    I add an acronym section here based on historical practices going back to previous roles. I typically include the fully spelled out acronym at first occurrence in every separate .md file.
+</code></pre></div>
+<p>It is now time to proceed to Part 1, an overview of IBM Power Virtual Server.</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 IBM
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.tracking", "content.code.annotate", "content.code.copy"], "search": "assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>
